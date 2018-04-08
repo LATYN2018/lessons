@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/interfecs.sass */
+.button {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff9d00;
+  border-radius: 5px;
+  border: none;
+  padding: 13px 22px; }
+  /* line 9, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/interfecs.sass */
+  .button_big {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    vertical-align: middle; }
+  /* line 14, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/interfecs.sass */
+  .button:hover {
+    background-color: #ffa71a;
+    cursor: pointer; }
+  /* line 17, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/interfecs.sass */
+  .button img {
+    vertical-align: middle; }
+
+/* line 7, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+input:focus, button:focus {
+  outline: none; }
+
+/* line 9, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+img {
+  max-width: 100%; }
+
+/* line 11, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0; }
+
+/* line 15, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+.header {
+  padding: 15px 0; }
+  /* line 17, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+  .header_contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    /* line 22, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+    .header_contacts_telephone {
+      font-size: 22px;
+      margin-right: 13px; }
+      /* line 25, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+      .header_contacts_telephone:first-child {
+        border-right: 1px solid #cfcfd0;
+        padding-right: 13px; }
+
+/* line 30, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+.main {
+  position: relative;
+  color: #ffffff;
+  padding-top: 65px;
+  padding-bottom: 60px;
+  background: #373737 url(../img/main-fon.jpg) center no-repeat;
+  background-size: cover; }
+  /* line 39, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+  .main::before {
+    content: '';
+    display: bloсk;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); }
+  /* line 49, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+  .main-text {
+    margin-left: 22px; }
+    /* line 51, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+    .main-text_title {
+      font-size: 41px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    /* line 55, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+    .main-text_subtitle {
+      font-size: 28px;
+      font-weight: 300;
+      margin-bottom: 27px; }
+    /* line 59, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+    .main-text_form {
+      padding: 30px 27px;
+      background-color: rgba(255, 255, 255, 0.2); }
+
+/* line 62, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+.form {
+  display: flex;
+  margin-bottom: 12px; }
+  /* line 65, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+  .form-title {
+    padding-right: 87px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px; }
+    /* line 71, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+    .form-title_important {
+      font-weight: 700;
+      text-transform: uppercase; }
+  /* line 74, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+  .form_input {
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+    vertical-align: middle;
+    flex-basis: 50%;
+    margin-right: 10px; }
+  /* line 81, C:/Users/Tom/Desktop/HTML5/lessons/lesson8/src/css/main.sass */
+  .form-smal {
+    font-size: 14px;
+    font-weight: 300; }
+
+/*# sourceMappingURL=main.css.map */
